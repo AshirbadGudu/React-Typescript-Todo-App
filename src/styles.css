@@ -1,0 +1,46 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  witdh: 80%;
+  margin: 5vh auto;
+}
+
+.addTodoBtn {
+  text-transform: uppercase;
+  background-color: #677df7;
+  color: #ffffff;
+  font-weight: 600;
+  border: 0;
+  padding: 1vh 1vw;
+  cursor: pointer;
+}
+
+.todoInput {
+  font-weight: 600;
+  border: 1px solid #677df7;
+  padding: 1vh 1vw;
+}
+
+.todoInput:active,
+.todoInput:focus {
+  border: 1px solid #425efa;
+}
+
+.todoInput::placeholder {
+  color: #2222222a;
+}
+
+.deleteTodoBtn {
+  background-color: transparent;
+  border: 1px solid salmon;
+  color: salmon;
+  transition: 0.5s;
+}
+.deleteTodoBtn:hover {
+  background: salmon;
+  color: #ffffff;
+  cursor: pointer;
+}
